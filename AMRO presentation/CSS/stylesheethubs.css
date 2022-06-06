@@ -119,3 +119,8 @@ header .menu{
     }
   
 }
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
