@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMRO Presentation Zakkas and Lewis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/stylesheet.css" rel="stylesheet">
+    <style>
+
+header{
+    width:100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0.5);
+}
+#chk1{
+    display: none;
+     
+     
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:#fff;
+     
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width:100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    background:#f2f2f2;
+    border-radius: 30px;
+    color:gray;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 40px;
+    text-align: center;
+     
+}
+ 
+.search-box button{
+    cursor: pointer;
+    width:27px;
+    height: 25px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: scale(.8);
+    background: rgb(86, 172, 136);
+    color: #fff;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top:100px;
+        right: -100%;
+        background: rgba(51, 49, 49, 0.5);
+        height: calc(100vh - 100px);
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+     
+    header .menu{
+        display: block;
+        width:100px;
+        text-align: center;
+    }
+    #chk1:checked ~ ul{
+        right: 0;
+        
+    }
+    .logo h1{
+      font-size: 25px;
+    }
+  
+}
+
+    </style>
+    
+</head>
+<body>
+  <header>
+    <input type ="checkbox" name ="" id ="chk1">
+    <div class="logo"><h1>The Eye</h1></div>
+        <div class="search-box">
+            <form>
+                <input type ="text" name ="search" id ="srch" placeholder="Search">
+                <button type ="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hubsroom.html">Hubs Room</a></li>
+            <li><a href="voices.html">Student Voice</a></li>
+            <li><a href="discussiontable.html"></a>Discussion Table</a></li>
+            <li>
+                <a href="https://www.facebook.com/lewis.legalskills.5"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/tamilew329"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/citizenshipdebates/"><i class="fa fa-instagram"></i></a>
+                  
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+</header>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <!--<div class="numbertext">1 / 3</div>-->
+      
+      <div class="text">
+        <!--<div><h1>Video Proctoring in Higher Education Assessments</h1>
+      <br>
+      <h3>Presenters:  Alex Zakkas and Tamara Lewis <br> Lecturers at The Hague University of Applied Sciences</h3>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+     
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      
+      <div class="text">Caption Three</div>-->
+      <section class="mySlides"><div id="cia">
+        <div class="cia"><h1 id="proj">CIA Project</h1> <div class="cf">
+            <img class="bottom" src="/Media/Bledsoe.gif" />
+            
+            <img class="top" src="/Media/Peter_E._Hart_at_CHM_Mar-2005.jpg" />
+
+          </div></div>
+        <h2>Nikki Stevens and Os Keyes</h2>
+        <p>In 1963 WW Bledsoe, Helen Chan, Charles Bisson run a project to create a prototype of facial recognition for intelligence operations.
+          Bledsoe continues to work on the problem after delivering the prototype to the CIA. The work was being done within the Stanford Research Institute with a team that included Peter E. Hart. The CIA continued its alliance with the institute but separately had its own expertise in the technology. The US government continues to build the technology through the academic partnerships and its own endeavors.</p> <br>
+          <p> In the 1990s and 2000s the FBI was now involved in the projects and it began to use mugshots of persons who were arrestd to broaden the database of faces, incorporating pose, angle and facial feature coordinates. </p>
+         
+
+
+
+      </div>
+        
+      </section>
+
+      <section class="mySlides"><div id="Swauger"><h1>MONETIZATION OF DATA</h1>
+      <h2>Shea Swauger<h2>
+      <div class="wrapper"><div>
+        <img class="bottom" src="/Media/classroomthuasposterize450.png"> </div>
+       
+      <p class="text">…these companies are monetizing data about students’ bodies to increase the value of their own intellectual property: their algorithms and software. As a business model, this is an ideal scenario for the private sector. Colleges and universities require students to let companies record their bodies and collect biometric data, which these companies then use to refine their product and sell it back to universities. </p></div></div></section>
+       
+      <section class="mySlides"> <div class="Acevedo"><h1> MILITARY AND CARCERAL ORIGINS</h1>
+      <h2> Matt Acevedo </h2><div class="wrapper2"><div>
+        <img class="bottom" src="/Media/thuasposterized450.png"> </div>
+       
+      <p class="prison">I suggest that our efforts to catch and punish cheaters is what creates them in the first place, and we need to critically re-examine our roles in the context of what “integrity” should mean.<br>
+      Virtual proctoring, in a quite literal fashion, resembles the idea of the panopticon, an architectural design for a prison in which cells are arranged on the edges of a circular or semi-circular structure, facing inward toward a central guard tower. In the guard tower, the overseer can surveil any particular cell at any given moment, but the inmates are unable to discern whether the overseer is watching him or her at any given moment to note a breach in the rules of prison. The inmate is compelled, at all times, to act as though the overseer is watching.</p></div></section>
+      
+      <section class="mySlides"><div class="integrity"> <h1>ACADEMIC INTEGRITY</h1>
+      <p>The ideas of “mitigating cheating” and “preventing academic misconduct” exist in the framework of what is commonly referred to as academic integrity, which is used as a shorthand for responsibilizing students to act in ways that are expected by the institution — to exhibit obedience to authority, particularly in matters of assessment of learning. Cheating and plagiarism are the two rallying cries of academic integrity, and academic integrity signals the officially sanctioned role of students under these headings. The role of faculty members and institutions in the discourse of academic integrity is superficial; they are expected to “promote a culture” of academic integrity at their institutions or “foster environments” in which students can behave correctly. (Matt Acevedo)</p></div></section>
+
+      <section class="mySlides"><div id="Logan"><h1> PEDAGOGY OF PUNISHMENT </h1>
+      <h2>Charles Logan </h2><div class="wrapper"><div>
+        <img class="bottom" src="/Media/chessposterize450.png"> </div>
+       
+      <p>I worry that the mechanized dehumanization experienced by individuals from nondominant groups at airport security is now being normalized in education due to online proctoring…Pedagogies of policing and punishment are the soil sustaining online proctoring. </p></div></section>
+     
+      
+      <section class="mySlides"><div class="mckenzie"><h1>TEACHING TRANSFORMATION</h1>
+      <h2> Amanda McKenzie</h2>
+      <p> Instructors have demonstrated ingenuity in developing new ways to involve students from being passive recipients of information on the other end of a video screen to actively engaging students’ interest by adding personal touches to course delivery, making themselves more approachable and humanistic, providing touch points with students across the term to check in, and providing multiple opportunities for formative feedback. Moreover, the pandemic has necessitated revamping traditional methods of assessment such as tests, exams, and assignments that have been reused year-after-year, or evaluations that focus only on rote memorization. Instructors have implemented better ways to assess students by using summative assignments, oral examinations, peer demonstration and grading, and giving tests that build on previous knowledge in the course or using reflections and synthesis questions which cannot be easily answered using the internet.</p></div></section>
+
+           
+
+
+    <section id="references">
+        <h2 id="ref-text">References</h2>
+    Acevedo, Matt 'Virtual Proctoring, the Panoptic Gaze, and the Discoursse of Academic Integrity' The Medium 5 January 2018 <a href="https://medium.com/@mattacevedo/virtual-proctoring-the-panoptic-gaze-and-the-discourse-of-academic-integrity-c7e78e82bf25" target="_blank">access article</a><br><br>
+
+    Ballantyne, Michael, Boyer, Robert S. and Hines, Larry 'Woody Bledsoe: His Life and Legacy' AI Magazine Volume 17 No. 1 Spring 1996 <a href="https://ojs.aaai.org/index.php/aimagazine/issue/archive" target="_blank">access article</a> <br><br>
+
+    Logan, Charles 'Toward Abolishing Online Proctoring: Counter-Narratives, Deep Change, and Pedagogies fo Educational Dignity' The Journal of Interactive Technology and Pedagogy 10 December 2021 Issue 20 <a href="https://jitp.commons.gc.cuny.edu/toward-abolishing-online-proctoring-counter-narratives-deep-change-and-pedagogies-of-educational-dignity/" target="_blank">access article</a> <br><br>
+
+    McKenzie, Amanda 'COVID-19: A Silver Lining for Academic Integrity from a Pandemic' Canadian Perspectives on Academic Integrity (2020), Vol. 3, Issue 2 <a href="https://journalhosting.ucalgary.ca/index.php/ai/article/view/71644" target="_blank">access article</a> <br><br>
+
+    Raviv, Shaun 'The Secret History of Facial Recognition' The Wired 21 January 2020 <a href="https://www.wired.com/story/secret-history-facial-recognition/" target="_blank">access article</a><br><br>
+
+    Swauger, Shea 'Our Bodies Encoded: Algorithmic Test Proctoring in Higher Education' Hybrid Pedagogy: the journal of critical digital pedagogy 2 April 2020 <a href="https://hybridpedagogy.org/our-bodies-encoded-algorithmic-test-proctoring-in-higher-education/" target="_blank" >access article</a>
+      
+    </section>
+      </div>
+    
+    
+</body>
+</html>
